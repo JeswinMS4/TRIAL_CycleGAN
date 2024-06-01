@@ -2,7 +2,7 @@
 A clean, simple and readable implementation of CycleGAN in PyTorch. I've tried to replicate the original paper as closely as possible, so if you read the paper the implementation should be pretty much identical. The results from this implementation I would say is on par with the paper, I'll include some examples results below.
 
 ## Results
-The model was trained on Zebra<->Horses dataset.
+The model was trained on Sketch<->Photo dataset.
 
 |1st column: Input / 2nd column: Generated / 3rd row: Re-converted|
 |:---:|
@@ -10,13 +10,8 @@ The model was trained on Zebra<->Horses dataset.
 |![](results/zebra_results.png)|
 
 
-### Horses and Zebras Dataset
-The dataset can be downloaded from Kaggle: [link](https://www.kaggle.com/suyashdamle/cyclegan).
+### Sketch and Photo Dataset
 
-### Download pretrained weights
-Pretrained weights [download](https://github.com/aladdinpersson/Machine-Learning-Collection/releases/download/1.0/CycleGAN_weights.zip).
-
-Extract the zip file and put the pth.tar files in the directory with all the python files. Make sure you put LOAD_MODEL=True in the config.py file.
 
 ### Training
 Edit the config.py file to match the setup you want to use. Then run train.py
