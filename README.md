@@ -4,10 +4,10 @@ A clean, simple and readable implementation of CycleGAN in PyTorch. We've tried 
 ## Results
 The model was trained on Sketch<->Photo dataset for 400 epochs.
 
-| Input | Generated |
-|:---:|:---:|
-| ![](real_sketch_0.png) | ![](sketch_to_photo_0.png) |
-| ![](real_photo_0.png) | ![](photo_to_sketch_0.png) |
+| Input | Generated | Actual |
+|:---:|:---:|:---:|
+| ![](real_sketch_0.png) | ![](sketch_to_photo_0.png) | ![](original_photo_0.jpg) |
+| ![](real_photo_0.png) | ![](photo_to_sketch_0.png) | ![](original_sketch_0.jpg) |
 
 
 
