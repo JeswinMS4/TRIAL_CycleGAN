@@ -93,8 +93,10 @@ def train_fn(
         g_scaler.update()
 
         if idx % 200 == 0:
-            save_image(fake_horse * 0.5 + 0.5, f"saved_images/horse_{idx}.png")
-            save_image(fake_zebra * 0.5 + 0.5, f"saved_images/zebra_{idx}.png")
+            save_image(horse*0.5+0.5, f"saved_images/horse_{idx}.png")
+            save_image(fake_horse*0.5+0.5, f"saved_images/fake_horse_{idx}.png")
+            save_image(zebra*0.5+0.5, f"saved_images/zebra_{idx}.png")
+            save_image(fake_zebra*0.5+0.5, f"saved_images/fake_zebra_{idx}.png")
 
         loop.set_postfix(H_real=H_reals / (idx + 1), H_fake=H_fakes / (idx + 1))
 
