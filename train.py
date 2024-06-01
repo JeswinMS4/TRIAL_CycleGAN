@@ -174,6 +174,7 @@ def main():
     d_scaler = torch.cuda.amp.GradScaler()
 
     for epoch in range(config.NUM_EPOCHS):
+        print("EPOCH == ",epoch)
         train_fn(
             disc_H,
             disc_Z,
