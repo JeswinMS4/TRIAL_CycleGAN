@@ -6,9 +6,10 @@ The model was trained on Sketch<->Photo dataset.
 
 |1st column: Input / 2nd column: Generated / 3rd row: Re-converted|
 |:---:|
-|![](results/horse_results.png)|
-|![](results/zebra_results.png)|
-
+|![](real_photo_0.png)|
+|![](photo_to_sketch_0.png)|
+|![](real_sketch_0.png)|
+|![](sketch_to_photo_0.png)|
 
 ### Sketch and Photo Dataset
 
