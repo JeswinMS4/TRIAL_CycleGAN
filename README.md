@@ -6,8 +6,8 @@ The model was trained on Sketch<->Photo dataset for 400 epochs.
 
 | Input | Generated | Actual |
 |:---:|:---:|:---:|
-| ![](real_sketch_0.png) | ![](sketch_to_photo_0.png) | ![](original_photo_0.jpg) |
-| ![](real_photo_0.png) | ![](photo_to_sketch_0.png) | ![](original_sketch_0.jpg) |
+| ![](real_sketch_0.png) | ![](sketch_to_photo_0.png) | ![](original_photo.jpg) |
+| ![](real_photo_0.png) | ![](photo_to_sketch_0.png) | ![](original_sketch.jpg) |
 
 
 
