@@ -12,7 +12,8 @@ The model was trained on Sketch<->Photo dataset for 400 epochs.
 
 
 ### Sketch and Photo Dataset
-
+TRAIN: 88
+VAL : 100
 
 ### Training
 | Parameters |
