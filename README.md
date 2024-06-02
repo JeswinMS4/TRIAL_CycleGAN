@@ -22,6 +22,8 @@ The model was trained on Sketch<->Photo dataset for 400 epochs.
 | LAMBDA_CYCLE = 10 |
 | NUM_WORKERS = 4 |
 | NUM_EPOCHS = 400 |
+| OPTIMIZER = ADAM |
+| LOSS FN = L1-Loss & MSE |
 
 ## CycleGAN paper
 ### Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks by Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros
