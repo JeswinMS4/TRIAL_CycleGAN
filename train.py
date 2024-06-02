@@ -1,9 +1,6 @@
 """
 Training for CycleGAN
 
-Programmed by Aladdin Persson <aladdin.persson at hotmail dot com>
-* 2020-11-05: Initial coding
-* 2022-12-21: Small revision of code, checked that it works with latest PyTorch version
 """
 
 import torch
