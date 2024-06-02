@@ -15,12 +15,13 @@ The model was trained on Sketch<->Photo dataset for 400 epochs.
 
 
 ### Training
-BATCH_SIZE = 1
-LEARNING_RATE = 1e-5
-LAMBDA_IDENTITY = 0.0
-LAMBDA_CYCLE = 10
-NUM_WORKERS = 4
-NUM_EPOCHS = 400
+| Parameters |
+|:---:|
+| ![] BATCH_SIZE = 1 |
+| ![] LEARNING_RATE = 1e-5 |
+| ![] LAMBDA_CYCLE = 10 |
+| ![] NUM_WORKERS = 4 |
+| ![] NUM_EPOCHS = 400 |
 
 ## CycleGAN paper
 ### Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks by Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros
