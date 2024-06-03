@@ -26,6 +26,8 @@ VAL : 100
 | OPTIMIZER = ADAM |
 | LOSS FN = L1-Loss & MSE |
 
+###Inference
+Colab Notebook link: https://colab.research.google.com/drive/1Q59QB5-req2mpGIl1pB-v1Of0iZy5zbp?usp=sharing
 ## CycleGAN paper
 ### Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks by Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros
 
